@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
 *, *::before, *::after {
+   padding: 0;
+   margin: 0;
    box-sizing: border-box
 }
 
@@ -71,8 +73,25 @@ body {
    color: #adadad;
 }
 
+/* carousel */
 .carousel {
-    max-height: 400px !important;
-    height: 400px !important;
-    overflow: hidden;
+   /*** 
+      if you want to change the height of the carousel on DESKTOP, 
+      do it here, just climb up the 70vh to something higher 
+      up to 100vh 
+   */
+   --carousel-height: 70vh;
+}
+.bg-carousel {
+   max-height: 700px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   /***
+      this will set max height 70vh when viewing on desktop,
+      then it will shrink to 55vw from laptop to tablet
+      and 410px on mobile.
+      You dont need to worry about media queries anymore :) 
+   */
+   height: clamp(410px, 55vw, var(--carousel-height));
 }
