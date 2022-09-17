@@ -13,13 +13,15 @@ body {
    font-family: Poppins, sans-serif;
    font-size: 1.2rem;
    color: white;
+
 }
 /*
 .container {
    max-width: 1920px;
    margin: 0 auto;
    padding: 0 40px;
-} */
+}
+*/
 
 .shipping-offer {
    font-weight: 500;
@@ -53,6 +55,7 @@ body {
    height: 80px;
    border: 2px solid white;
    border-radius: 10%;
+   display: flex;
   
 }
 
@@ -75,23 +78,23 @@ body {
 
 /* carousel */
 .carousel {
-   /*** 
-      if you want to change the height of the carousel on DESKTOP, 
-      do it here, just climb up the 70vh to something higher 
-      up to 100vh 
-   */
-   --carousel-height: 70vh;
+   --carousel-height: calc(100vh - 185px);
 }
 .bg-carousel {
-   max-height: 700px;
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
-   /***
-      this will set max height 70vh when viewing on desktop,
-      then it will shrink to 55vw from laptop to tablet
-      and 410px on mobile.
-      You dont need to worry about media queries anymore :) 
-   */
-   height: clamp(410px, 55vw, var(--carousel-height));
+   height: var(--carousel-height);
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon  {
+   background-color:black;
+}
+
+.shirt-border {
+   width: 200px;
+   height: 250px;
+   border: solid 2px white;
+   border-radius: 10%;
+   display: flex;
 }
