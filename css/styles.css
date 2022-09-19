@@ -91,10 +91,11 @@ body {
    background-color:black;
 }
 
-.shirt-border {
-   width: 200px;
-   height: 250px;
-   border: solid 2px white;
-   border-radius: 10%;
-   display: flex;
+.col{
+   padding-top: 25px;
+   padding-bottom: 25px;
+}
+
+.card-styling{
+   color: #2F303A;
 }
