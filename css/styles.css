@@ -127,3 +127,9 @@ li :hover {
 .form-group, form {
    margin-bottom: 1.5rem;
 }
+
+.accordion {
+   --bs-accordion-active-color: black;
+   --bs-accordion-active-bg: white;
+   --bs-accordion-btn-focus-box-shadow: black
+}
