@@ -133,3 +133,11 @@ li :hover {
    --bs-accordion-active-bg: white;
    --bs-accordion-btn-focus-box-shadow: black
 }
+
+i {
+   padding-left: 2px;
+}
+
+icon-color :hover {
+   color: whitesmoke;
+}
