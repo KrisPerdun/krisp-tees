@@ -55,8 +55,8 @@ h3 {
 }
 
 .main-logo {
-   width: 80px;
-   height: 80px;
+   width: 60px;
+   height: 60px;
    border-radius: 10%;
    display: flex;
   
@@ -72,7 +72,7 @@ h3 {
 .main-nav a{
    color: black;
    text-decoration: none;
-   padding: 1rem;
+   padding: 0.9rem;
 }
 
 .main-nav a:hover {
@@ -141,3 +141,16 @@ i {
 icon-color :hover {
    color: whitesmoke;
 }
+
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: whitesmoke !important;
+}
+
+.nav-link {
+   color: black;
+}
+
+ .navbar-toggler {
+   border: 2px solid black;
+ }
