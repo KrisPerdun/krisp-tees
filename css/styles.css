@@ -13,7 +13,7 @@ body{
 	padding: 0;
 	margin: 0;
 	background-color: hsla(0,0%,99%,0.97);
-	/*font-size: 1.2rem;*/
+	font-size: 1.2rem;
 	display: flex;
 	flex-direction: column;
 }
@@ -112,17 +112,6 @@ h4, h6{
 	padding-bottom: 25px;
 }
 
-.card {
-	color: #171717;
-	border-radius: 5px !important;
-  	box-shadow: 1px 2px 3px 4px rgba(12,12,12,0.2) !important;
-}
-
-.btn-dark {
-	border-radius: 2px;
-  	box-shadow: 1px 2px 3px 4px rgba(12,12,12,0.2);
-}
-
 footer {
 	background-color: #171717;
 	height: auto;
@@ -161,11 +150,6 @@ i {
 
 icon-color :hover {
 	color: hsla(0,0%,99%,0.97);
-}
-
-.bg-light {
-	--bs-bg-opacity: 1;
-	background-color:hsla(0,0%,99%,0.97) !important;
 }
 
 .nav-link {
