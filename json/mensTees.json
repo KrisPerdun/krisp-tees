@@ -1,0 +1,142 @@
+[
+   {
+      "image": "images/mens-tees/mens-plain-black.png",
+      "title": "Mens Black Tee",
+      "description": "This is the product that you have been needing",
+      "price": "9.99",
+      "rating": "4.5/5"
+   },
+   {
+      "image": "images/mens-tees/mens-plain-white.png",
+      "title": "Mens White Tee",
+      "description": "This is the product that you have been needing",
+      "price": "9.99",
+      "rating": "4.0/5"
+   },
+   {
+      "image": "images/mens-tees/mens-plain-grey.png",
+      "title": "Mens Grey Tee",
+      "description": "This is the product that you have been needing",
+      "price": "9.99",
+      "rating": "4.0/5"
+   },
+   {
+      "image": "images/mens-tees/mens-plain-red.png",
+      "title": "Mens Red Tee",
+      "description": "This is the product that you have been needing",
+      "price": "9.99",
+      "rating": "4.5/5"
+   },
+   {
+      "image": "images/mens-tees/mens-plain-green.png",
+      "title": "Mens Navy Green Tee",
+      "description": "This is the product that you have been needing",
+      "price": "9.99",
+      "rating": "3.5/5"
+   },
+   {
+      "image": "images/mens-tees/mens-plain-blue.png",
+      "title": "Mens Blue Tee",
+      "description": "This is the product that you have been needing",
+      "price": "9.99",
+      "rating": "3.5/5"
+   },
+   {
+      "image": "images/mens-tees/mens-plain-navy-blue.png",
+      "title": "Mens Navy Blue Tee",
+      "description": "This is the product that you have been needing",
+      "price": "9.99",
+      "rating": "4.0/5"
+   },
+   {
+      "image": "images/mens-tees/mens-plain-orange.png",
+      "title": "Mens Orange Tee",
+      "description": "This is the product that you have been needing",
+      "price": "9.99",
+      "rating": "3.0/5"
+   },
+   {
+      "image": "images/mens-tees/mens-plain-yellow.png",
+      "title": "Mens Yellow Tee",
+      "description": "This is the product that you have been needing",
+      "price": "9.99",
+      "rating": "3.0/5"
+   },
+   {
+      "image": "images/mens-tees/mens-plain-purple.png",
+      "title": "Mens Purple Tee",
+      "description": "This is the product that you have been needing",
+      "price": "9.99",
+      "rating": "4.0/5"
+   },
+   {
+      "image": "images/mens-tees/mens-polo-black.png",
+      "title": "Mens Black Polo",
+      "description": "This is the product that you have been needing",
+      "price": "9.99",
+      "rating": "4.5/5"
+   },
+   {
+      "image": "images/mens-tees/mens-polo-white.png",
+      "title": "Mens White Polo",
+      "description": "This is the product that you have been needing",
+      "price": "9.99",
+      "rating": "4.0/5"
+   },
+   {
+      "image": "images/mens-tees/mens-polo-grey.png",
+      "title": "Mens Grey Polo",
+      "description": "This is the product that you have been needing",
+      "price": "9.99",
+      "rating": "4.0/5"
+   },
+   {
+      "image": "images/mens-tees/mens-polo-red.png",
+      "title": "Mens Red Polo",
+      "description": "This is the product that you have been needing",
+      "price": "9.99",
+      "rating": "4.5/5"
+   },
+   {
+      "image": "images/mens-tees/mens-polo-green.png",
+      "title": "Mens Green Polo",
+      "description": "This is the product that you have been needing",
+      "price": "9.99",
+      "rating": "3.5/5"
+   },
+   {
+      "image": "images/mens-tees/mens-polo-blue.png",
+      "title": "Mens Blue Polo",
+      "description": "This is the product that you have been needing",
+      "price": "9.99",
+      "rating": "3.5/5"
+   },
+   {
+      "image": "images/mens-tees/mens-polo-navy-blue.png",
+      "title": "Mens Navy Blue Polo",
+      "description": "This is the product that you have been needing",
+      "price": "9.99",
+      "rating": "4.0/5"
+   },
+   {
+      "image": "images/mens-tees/mens-plain-orange.png",
+      "title": "Mens Orange Polo",
+      "description": "This is the product that you have been needing",
+      "price": "9.99",
+      "rating": "3.0/5"
+   },
+   {
+      "image": "images/mens-tees/mens-polo-yellow.png",
+      "title": "Mens Yellow Polo",
+      "description": "This is the product that you have been needing",
+      "price": "9.99",
+      "rating": "3.0/5"
+   },
+   {
+      "image": "images/mens-tees/mens-polo-purple.png",
+      "title": "Mens Purple Polo",
+      "description": "This is the product that you have been needing",
+      "price": "9.99",
+      "rating": "4.0/5"
+   }
+]
