@@ -39,7 +39,6 @@ h4, h6{
 	color: white;
 	padding-bottom: 0.8rem;
 	padding-top: 0.8rem;
-	background-image: url("/images/background.png") !important;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -119,7 +118,6 @@ footer {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	margin-top: auto;
-	background-image: url("/images/background.png") !important;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
