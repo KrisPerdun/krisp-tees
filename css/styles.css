@@ -1,23 +1,21 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
 
-*{
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
-
-body{
-   font-family: 'Poppins', sans-serif;
-   min-height: 100vh;
-   color: #555;
+body {
+	font-family: 'Poppins', sans-serif;
+	min-height: 100vh;
+	color: #555;
 	padding: 0;
 	margin: 0;
-	background-color: hsla(0,0%,99%,0.97);
+	background-color: hsla(0, 0%, 99%, 0.97);
 	font-size: 1.2rem;
 	display: flex;
 	flex-direction: column;
 }
-
 h3 {
 	text-align: center;
 	color: #171717;
@@ -25,11 +23,7 @@ h3 {
 	padding-top: 25px;
 	text-transform: uppercase;
 }
-
-h4, h6{
-	color: white;
-}
-
+h4, h6 { color: white; }
 .shipping-offer {
 	font-weight: 500;
 	letter-spacing: 0.09em;
@@ -42,7 +36,6 @@ h4, h6{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-
 .brand-logo {
 	display: flex;
 	align-items: center;
@@ -50,34 +43,27 @@ h4, h6{
 	color: inherit;
 	text-decoration: none;
 }
-
 .main-logo {
 	width: 60px;
 	height: 60px;
 	border-radius: 10%;
 	display: flex;
 	border-radius: 5px;
-  	box-shadow: 2px 2px 2px 2px rgba(12,12,12,0.2);
+	box-shadow: 2px 2px 2px 2px rgba(12, 12, 12, 0.2);
 }
-
 .main-nav ul {
 	display: flex;
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
-
 .main-nav a {
 	color: #171717;
 	text-decoration: none;
 	padding: 0.9rem;
 	text-transform: uppercase;
 }
-
-.main-nav a:hover {
-	color: #adadad;
-}
-
+.main-nav a:hover { color: #adadad; }
 /* carousel */
 .carousel {
 	--carousel-height: calc(100vh - 121px);
@@ -89,12 +75,8 @@ h4, h6{
 	background-position: center;
 	height: var(--carousel-height);
 }
-
 .carousel-control-prev-icon,
-.carousel-control-next-icon {
-	background-color: #171717;
-}
-
+.carousel-control-next-icon { background-color: #171717; }
 .carousel-caption {
 	position: absolute;
 	bottom: 1.25rem;
@@ -105,12 +87,10 @@ h4, h6{
 	color: #fff;
 	text-align: center;
 }
-
 .col {
 	padding-top: 25px;
 	padding-bottom: 25px;
 }
-
 footer {
 	background-color: #171717;
 	height: auto;
@@ -121,123 +101,103 @@ footer {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-
-li,
-a {
+li, a {
 	color: #adadad;
 	text-decoration: none;
 }
-
-li :hover {
-	color: hsla(0,0%,99%,0.97);
-}
-
-.form-group, form {
-	margin-bottom: 1.5rem;
-}
-
+li :hover { color: hsla(0, 0%, 99%, 0.97); }
+.form-group, form { margin-bottom: 1.5rem; }
 .accordion {
 	--bs-accordion-active-color: #171717;
 	--bs-accordion-active-bg: white;
 	--bs-accordion-btn-focus-box-shadow: #171717;
 }
-
-i {
-	padding-left: 2px;
-}
-
-icon-color :hover {
-	color: hsla(0,0%,99%,0.97);
-}
-
-.nav-link {
-	color: #171717;
-}
-
+i { padding-left: 2px; }
+icon-color :hover { color: hsla(0, 0%, 99%, 0.97); }
+.nav-link { color: #171717; }
 .navbar-toggler {
 	border: 2px solid #171717;
 	border-radius: 2px;
-  	box-shadow: 1px 2px 3px 4px rgba(12,12,12,0.2);
+	box-shadow: 1px 2px 3px 4px rgba(12, 12, 12, 0.2);
 }
-
 
 /* CSS for T-shirt with JSON */
-.products{
-   display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(250px, auto));
-   grid-gap: 58px;
-   margin: 50px auto;
-   max-width: 1240px;
-   padding: 20px;
+.products {
+	--template-cols: repeat(auto-fit, minmax(250px, auto));
+	--template-width: 1240px;
+	--place-content: self-start;
+	display: grid;
+	grid-template-columns: var(--template-cols);
+	place-items: var(--place-content);
+	grid-gap: 58px;
+	margin: 50px auto;
+	max-width: var(--template-width);
+	padding: 20px;
 }
-
-.product{
-   padding: 10px;
-   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+.product {
+	padding: 10px;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
-
-.product img{
-   width: 100%;
-   display: block;
+.product img {
+	width: 100%;
+	display: block;
 }
-
-.product .title{
-   text-align: center;
-   padding-top: 30px;
-   padding-bottom: 20px;
-   font-weight: 600;
-   text-transform: uppercase;
+.product .title {
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
 }
-
-.product .description{
-   text-align: center;
-   padding: 0 20px 20px 20px;
-   line-height: 22px;
+.product .description {
+	text-align: center;
+	padding: 0 20px 20px 20px;
+	line-height: 22px;
 }
-
-.product .rating{
-   text-align: center;
-   font-weight: 600;
-   font-size: 15px;
-   color: #212529;
-   padding-top: 10px;
-   font-family: Poppins;
-   text-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+.product .rating {
+	text-align: center;
+	font-weight: 600;
+	font-size: 15px;
+	color: #212529;
+	padding-top: 10px;
+	font-family: Poppins;
+	text-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
-
-.product .price{
-   text-align: center;
-   font-weight: 600;
-   font-size: 20px;
-   color: #9b0b03;
-   padding-top: 0px;
-   font-family: sans-serif;
-   text-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+.product .price {
+	text-align: center;
+	font-weight: 600;
+	font-size: 20px;
+	color: #9b0b03;
+	padding-top: 0px;
+	font-family: sans-serif;
+	text-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
-
-.product .size{
-   text-align: center;
-   margin: auto;
-   display: flex;
-   font-weight: 600;
-   font-size: 15px;
-   padding: 5px;
-   margin-top: 15px;
-   line-height: 22px;
-   background-color: #212529;
-   color: white;
-   cursor: pointer;
+.product .size {
+	text-align: center;
+	margin: auto;
+	display: flex;
+	font-weight: 600;
+	font-size: 15px;
+	padding: 5px;
+	margin-top: 15px;
+	line-height: 22px;
+	background-color: #212529;
+	color: white;
+	cursor: pointer;
 }
-
-.product .cart{
-   text-align: center;
-   padding: 15px 0;
-   margin-top: 30px;
-   background-color: #212529;
-   color: white;
-   cursor: pointer;
+.product .cart {
+	text-align: center;
+	padding: 15px 0;
+	margin-top: 30px;
+	background-color: #212529;
+	color: white;
+	cursor: pointer;
 }
-
-.product .cart i{
-   padding-left: 10px;
+.product .cart i { padding-left: 10px; }
+:is(.products).error {
+	--template-cols: 1fr;
+	--template-width: 80%;
+	--place-content: center;
+	border: 1px solid crimson;
 }
+.error { color: crimson; }
